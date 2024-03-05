@@ -1,3 +1,9 @@
 <!doctype html>
 <title>RPM on GitHub Pages</title>
 <h1>Simple example of publishing an RPM on GitHub Pages</h1>
+<p>You can test it on an EL9 distro</p>
+<pre>
+curl -O /etc/yum.repos.d/example.repo https://hairmare.github.io/createrepo-action-test/example.repo
+
+dnf install example
+</pre>

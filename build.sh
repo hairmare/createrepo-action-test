@@ -11,3 +11,4 @@ createrepo /tmp/dist/SRPMS
 
 mv /tmp/dist /git/dist
 cp /git/src/index.html /git/dist/
+cp /git/src/example.repo /git/dist/

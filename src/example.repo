@@ -1,0 +1,5 @@
+[example]
+name=example repo
+baseurl=https://hairmare.github.io/createrepo-action-test/RPMS/x86_64/
+enabled=1
+gpgcheck=0

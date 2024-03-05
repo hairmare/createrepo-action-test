@@ -9,3 +9,13 @@ Long term goals would be reworking this proof of concept into a version that
 
 I'm not sure if this is currently possible out of the box and digging deep
 for workarounds isn't currently in scope.
+
+## Developing
+
+```bash
+# build it locally
+bash run.sh
+
+# test it in a container
+bash run test.sh
+```
