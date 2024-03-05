@@ -3,3 +3,9 @@ name=example repo
 baseurl=https://hairmare.github.io/createrepo-action-test/RPMS/x86_64/
 enabled=1
 gpgcheck=0
+
+[example-source]
+name=example repo - Source
+baseurl=https://hairmare.github.io/createrepo-action-test/SRPMS/
+enabled=1
+gpgcheck=0

@@ -1,6 +1,6 @@
 Name:           example
 Version:        0.0.0
-Release:        1%{?dist}
+Release:        1%{?dist}+%{_buildnum}
 Summary:        A simple example
 
 License:        AGPLv3
