@@ -6,7 +6,7 @@ microdnf install -y createrepo dnf dnf-plugins-core rpmdevtools
 
 rpmdev-setuptree
 
-rpmbuild -ba --define "_buildnum ${GITHUB_SHA:-dev}" example.spec
+rpmbuild -ba --define "_buildnum ${GITHUB_SHA}" example.spec
 
 cp /git/src/example.repo /etc/yum.repos.d/
 
